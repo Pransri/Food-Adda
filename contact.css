@@ -1,0 +1,35 @@
+.text
+{
+  width: 100%;
+}
+
+.last
+{
+
+  position:relative;
+  margin-bottom: 25%;
+}
+
+
+
+.btn
+{
+  margin-top: 3%;
+  width: 100%;
+}
+h1
+{
+  margin-top: 3%;
+}
+
+textarea
+{
+  padding: 10px;
+  font-size: 20px;
+}
+
+.btn-close{
+
+  float: right;
+
+}

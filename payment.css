@@ -1,0 +1,26 @@
+.text
+{
+  width: 100%;
+}
+
+.btn
+{
+  margin-top: 3%;
+}
+
+.last
+{
+  position:relative;
+  margin-bottom:25%;
+}
+
+.btn-group
+{
+  width: 100%;
+}
+
+.btn-close{
+
+  float: right;
+
+}

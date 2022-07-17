@@ -1,0 +1,67 @@
+/* #profile
+{
+  border-style: solid;
+ border-width: thin;
+ border-color: black;
+ border-radius: 4px;
+ padding-left: 70px;
+ padding-bottom: 50px;
+
+} */
+
+
+h6
+{
+  text-align: center;
+}
+
+#profile
+{
+  height: 100px;
+  width: 100px;
+  margin-left: 0;
+  margin-top: 50px;
+  margin-right: 20px;
+
+
+}
+
+img
+{
+    float: left;
+}
+
+h4
+{
+  margin-top: 70px;
+
+
+}
+.bord
+{
+  border: 1px solid black;
+  height: 250px;
+  border-radius: 4px;
+  box-shadow: 10px 10px;
+}
+
+p
+{
+  margin-left: 5px;
+}
+
+::value {
+  color: black;
+  padding: 2px;
+  background: white;
+}
+
+input
+{
+  width: 100%;
+  font-size: 30px;
+  box-shadow: 2px 2px;
+  border-radius: 10px;
+
+
+}
