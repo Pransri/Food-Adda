@@ -21,9 +21,17 @@
     <title>Final Payment</title>
   </head>
   <body>
+    <script type="text/javascript">
+    function my_function()
+    {
+      window.location.href="profile.html";
+    }
+
+    </script>
+
     <div class="container-header">
       <h1>Checkout</h1>
-      <button type="button" class="btn-close" aria-label="Close"></button>
+      <button onclick="my_function()" type="submit" class="btn-close" aria-label="Close"></button>
     </div>
 
     <div class="center-div">
@@ -74,7 +82,7 @@
         </li>
       </ul>
 
-      <div class="center-div second">    
+      <div class="center-div second">
         <button
           class="btn btn-secondary dropdown-toggle m-4"
           type="button"

@@ -17,6 +17,13 @@
 </head>
 
 <body>
+  <script type="text/javascript">
+  function my_function()
+  {
+    window.location.href="landing.html";
+  }
+
+  </script>
 
 
 <div class="sidebar-nav">
@@ -45,7 +52,7 @@
 
                     <ul class="navbar-nav">
 
-                        <li><a href="#"> <span class="item-text">HomePage</span></a></li>
+                        <li><a href="index.html"> <span class="item-text">HomePage</span></a></li>
 
                         <li><a href="contact.html"><span class="item-text">Contact Us</span></a></li>
 
@@ -88,7 +95,7 @@
 
                     <li><button class="dropdown-item" type="button">Edit Profile</button></li>
 
-                    <li><button class="dropdown-item" type="button">Settings</button></li>
+                    <li><button onclick="my_function" class="dropdown-item" type="submit">Settings</button></li>
 
                     <li><hr class="dropdown-divider"></li>
 
